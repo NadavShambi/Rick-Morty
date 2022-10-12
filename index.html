@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" style="min-height: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark" style="min-height: 100%;" >
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg bg-warning sticky-sm-top">
+      <div class="container-fluid">
+        <a href="#" title="Image from freepnglogos.com"
+          ><img
+            src="https://www.freepnglogos.com/uploads/rick-and-morty-png/list-rick-and-morty-episodes-wikipedia-24.png"
+            width="200"
+            alt="list rick and morty episodes wikipedia"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-dark"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore
+              </a>
+              <ul class="dropdown-menu bg-warning">
+                <li><a class="dropdown-item text-dark" href="#gallery">Gallery</a></li>
+                <li>
+                  <a class="dropdown-item text-dark" href="/moreEp.html">More Episodes</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-dark" href="#about">About Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button type="submit" class="btn btn-light btn-outline-dark">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PRE CONTENT -->
+    <div class="container text-center text-light my-3" >
+      <div class="d-md-flex align-items-center justify-content-evenly">
+        <div>
+          <h1>Wubba Lubba Dub Dub!</h1>
+          <p>
+            “Lemme check my list of powers and weaknesses:
+          </br> ability to do
+            anything, but only whenever I want.”
+          </p>
+          <button class="btn btn-warning">oooweee</button>
+        </div>
+        <img
+          src="https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-portal-moon-mod-download-35.png"
+          width="500"
+          alt="rick and morty portal moon mod download"
+        />
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <section class="container my-5" id="gallery">
+      <div class="row align-items-center">
+        <div class="col-1"><h1>◀</h1></div>
+        <img
+          src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-morty-wallpaper-speedpaint-youtube-2.jpg"
+          width="200"
+          alt="rick and morty background rick morty wallpaper speedpaint youtube"
+          class="col-10"
+        />
+        <div class="col-1"><h1>▶</h1></div>
+      </div>
+    </section>
+
+    <!-- MAIN -->
+
+    <!-- EP -->
+    <div class="container">
+      <h1 class="text-center text-light">Recommended Episodes</h1>
+      <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+        <div class="card text-bg-dark mt-5" style="width: 13rem">
+          <img
+            src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-and-morty-wallpaper-background-image-11.jpg"
+            width="200"
+            alt="rick and morty background rick and morty wallpaper background image"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              “ YOU try to relax. Have you ever TRIED to relax? IT IS A
+              PARADOX.“
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-dark mt-5" style="width: 13rem">
+          <img
+            src="https://www.sideshow.com/wp/wp-content/uploads/2021/04/Pickle-Rick-740x386.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              “I turned myself into a pickle, Morty! I’m Pickle Ri-i-i-ick!”
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-dark mt-5" style="width: 13rem">
+          <img
+            src="https://media.cdn.adultswim.com/uploads/20220921/thumbnails/2_229211551302-RAM_The_Vindicators2_101.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              “Hey, everybody, the ghost train guy would have used a ghost
+              train!“
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-dark mt-5" style="width: 13rem">
+          <img
+            src="https://media.cdn.adultswim.com/uploads/20210709/thumbnails/2_21791121193-RickMorty_Inside505_V4465.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section 
+    class="bg-light text-dark my-5 p-5"
+    id="contact">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3>Sign Up for newsletter</h3>
+                <div class="input-group">
+                    <input class="form-control" placeholder="Enter Email" type="email">
+                    <button class="btn btn-dark text-light btn-lg">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section 
+    class="container d-lg-flex p-3 mb-5 justify-content-evenly align-items-center text-center"
+    id="about"
+    style="border: 4px solid #eee5;
+          border-radius: 12px;">
+        <div class="p-4">
+       <img
+        src="https://pbs.twimg.com/profile_images/1492099066376994818/9-92kLE8_400x400.jpg"
+        width="250"
+        alt="rick and morty background rick and morty ultra wallpaper background image"
+        style="border-radius: 14px;"
+         />
+        </div>
+        <div class="text-light p-4 text-start" >
+            <h2>About Rick:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci libero repudiandae ducimus eos consectetur debitis, itaque fugiat eum tenetur, doloribus beatae iusto similique neque ab est? Maxime nemo laudantium ex?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita obcaecati velit necessitatibus, et, provident dolores nostrum aliquid voluptatum quam cupiditate laboriosam ea.</p>
+        </div>
+    </section>
+    <section 
+    class="container d-lg-flex p-3 mb-5 justify-content-evenly align-items-center text-center"
+    id="about"
+    style="border: 4px solid #eee5;
+          border-radius: 12px;">
+        <div class="p-4">
+       
+        </div>
+       <img
+        src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-and-morty-ultra-wallpaper-background-image-7.png"
+        width="340"
+        alt="rick and morty background rick and morty ultra wallpaper background image"
+        style="border-radius: 14px;"
+        class="order-sm-last"
+         />
+        <div class="text-light p-4 text-start " >
+            <h2>About Morty:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci libero repudiandae ducimus eos consectetur debitis, itaque fugiat eum tenetur, doloribus beatae iusto similique neque ab est? Maxime nemo laudantium ex?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita obcaecati velit necessitatibus, et, provident dolores nostrum aliquid voluptatum quam cupiditate laboriosam ea.</p>
+        </div>
+
+      
+    </section>
+
+
+
+   <!-- FOOTER -->
+    <footer
+      class="container-fluid d-flex align-items-center justify-content-center text-light bg-warning mt-auto"
+      style="height: 40px"
+    >
+      <h5>coffeerights &copy;</h5>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
