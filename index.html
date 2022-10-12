@@ -60,7 +60,7 @@
               <ul class="dropdown-menu bg-warning">
                 <li><a class="dropdown-item text-dark" href="#gallery">Gallery</a></li>
                 <li>
-                  <a class="dropdown-item text-dark" href="./moreEp.html">More Episodes</a>
+                  <a class="dropdown-item text-dark" href="./moreEp">More Episodes</a>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
@@ -105,18 +105,34 @@
     </div>
 
     <!-- Gallery -->
-    <section class="container my-5" id="gallery">
-      <div class="row align-items-center">
-        <div class="col-1"><h1>◀</h1></div>
-        <img
-          src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-morty-wallpaper-speedpaint-youtube-2.jpg"
-          width="200"
-          alt="rick and morty background rick morty wallpaper speedpaint youtube"
-          class="col-10"
-        />
-        <div class="col-1"><h1>▶</h1></div>
+  
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    </section>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-morty-wallpaper-speedpaint-youtube-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-morty-and-man-sky-mashup-wallpaper-taken-from-4.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-and-morty-wallpapers-wallpaper-cave-8.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!-- MAIN -->
 
